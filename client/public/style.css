@@ -1,0 +1,80 @@
+#root {
+    font-family: 'Special Elite', cursive;
+}
+
+body, html {
+    background-image: url('./assets/paper.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.content-font {
+    font-size: 18px;
+}
+
+.pod-table {
+    font-size: 18px;
+}
+
+.registration-link:hover {
+    text-decoration: underline;
+}
+
+.pod-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pod-link:hover {
+    text-decoration:underline;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    margin: 5px 0 0 5px;
+    width:200px;
+    height:85px;
+}
+
+#active-writer {
+    font-size: 18px;
+}
+
+.written-by {
+    text-align: right;
+    margin:0;
+}
+
+.pod-name {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.main-button-font {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 18px;
+}
+
+.submit-button {
+    font-size: 24px;
+}
+
+.top-nav {
+    height: 100px;
+}
+
+.login-form {
+    margin-top: 5rem;
+}
+
+#my-pod-searchbar {
+    margin-top: 1rem;
+}
+
+.welcome-content {
+    text-align: center;
+}
