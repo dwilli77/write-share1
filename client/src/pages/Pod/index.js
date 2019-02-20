@@ -138,13 +138,13 @@ class Pod extends React.Component {
                         ) : (
                             this.state.content.map(block => {
                                 return(
-                                    <div class="row" key={block.contentText}>
-                                        <div class="col s12">
-                                        <div class="card blue-grey lighten-1">
-                                            <div class="card-content white-text">
+                                    <div className="row" key={block.contentText}>
+                                        <div className="col s12">
+                                        <div className="card blue-grey lighten-1">
+                                            <div className="card-content white-text">
                                             <p className="white-text content-font">{block.contentText}</p>
                                             </div>
-                                            <div class="card-action">
+                                            <div className="card-action">
                                             <p className="written-by">Written By: {block.contentCreator}</p>
                                             </div>
                                         </div>
