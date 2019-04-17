@@ -58,6 +58,9 @@ class Pod extends React.Component {
     };
 
     postContent = () => {
+        if(!this.state.newContent){
+            return false;
+        }
         API.newContent({
             contentText: this.state.newContent,
             contentCreator: this.state.activeParticipant,
